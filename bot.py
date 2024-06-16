@@ -18,7 +18,7 @@ from config_private import TOKEN
 dp = Dispatcher()
 
 # Присвоить диспетчеру иммутабельные параметры, которые будут нужны в хэндлерах
-dp["start_date"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+dp["started_at"] = datetime.now().strftime("%Y-%m-%d %H:%M")
 dp["dots_list"] = []
 
 
