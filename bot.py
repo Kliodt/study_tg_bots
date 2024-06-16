@@ -10,7 +10,7 @@ from aiogram.filters import Command, CommandObject
 from aiogram.types import Message
 from aiogram.utils.formatting import Text, Bold
 
-from config import TOKEN
+from config_private import TOKEN
 
 # Крутой и довольно полный гайд: https://mastergroosha.github.io/aiogram-3-guide/
 

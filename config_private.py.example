@@ -1,0 +1,4 @@
+# remove example from name and insert private values
+
+TOKEN = "private"
+
